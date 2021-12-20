@@ -1,22 +1,14 @@
 .container {
     display: grid;
-    grid-gap: 5px;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-auto-rows: 75px;
-    /*grid-auto-flow: row; default setting*/
-    grid-auto-flow: dense /*makes box closer*/
+    grid-gap: 20px;
+    grid-template-columns: 100px auto 200px;
+    grid-template-rows: 200px 100px 400px 60px;
+    margin: 50px;
+    font-size: 40px;
+    font-weight: bold;
+
+
+
+
 }
 
-.horizontal {
-grid-column: span 2;
-
-}
-
-.vertical {
-    grid-row: span 2;
-}
-
-.big {
-    grid-column: span 2;
-    grid-row: span 2;
-}
