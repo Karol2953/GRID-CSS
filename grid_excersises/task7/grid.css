@@ -1,0 +1,18 @@
+.container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: fit-content(100px) 150px 150px 150px;
+    border: solid 10px rgba(235, 242, 4, 0.72);
+    margin: 50px;
+    height: auto;
+
+}
+
+.item4
+{
+    grid-column: auto / -1;
+}
+
+
+
+

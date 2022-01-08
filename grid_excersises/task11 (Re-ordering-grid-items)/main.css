@@ -1,0 +1,12 @@
+
+html
+{
+    background-image: url("https://eneax.github.io/learn-css-grid/assets/images/topography.svg"),linear-gradient(
+             #f93d66, #6d47d9);
+    background-size: 600px,auto;
+    background-attachment: fixed;
+}
+body
+{
+    margin: 50px;
+}
