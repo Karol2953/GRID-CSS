@@ -1,0 +1,14 @@
+
+html
+{
+    background-image: url("https://eneax.github.io/learn-css-grid/assets/images/topography.svg"),linear-gradient(
+             #f93d66, #6d47d9);
+    background-size: 600px,auto;
+    background-attachment: fixed;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 10px;
+}
+body
+{
+    margin: 50px;
+}
