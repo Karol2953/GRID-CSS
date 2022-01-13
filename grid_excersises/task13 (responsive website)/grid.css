@@ -1,0 +1,86 @@
+.wrapper
+{
+    display: grid;
+    grid-gap: 20px;
+}
+.top
+{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+    "picture picture price1 "
+    "picture picture price2 ";
+}
+.picture
+{
+    background-image: url("https://eneax.github.io/learn-css-grid/24-Responisve-Website/images/taco.jpg");
+    grid-area: picture;
+    min-height: 400px;
+    background-size: cover;
+    background-position: bottom right;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.picture > h1 , .picture > p
+{
+    background-color: #f9b700;
+}
+.cost
+{
+    background-color: #f9b700;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+.value
+{
+    margin: 0px;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.price1{
+    grid-area: price1;
+}
+.price2{
+    grid-area: price2;
+}
+
+.menu ul
+{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit,minmax(100px, 1fr));
+    padding: 0;
+    margin: 20px 0;
+    list-style: none;
+
+}
+.menu a
+{
+    background-color: #f9b700;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+
+}
+
+button
+{
+    background-color: #f9b700;
+    border: 0;
+    padding: 10px 20px;
+}
+
+[aria-controls="menu-list"]
+{
+
+}
+
